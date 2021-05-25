@@ -14,7 +14,7 @@ poseNet.on('pose', gotPoses);
 
 function draw(){
 background('#008080')
-textSize(leftWristX, rightWristX, difference);
+textSize(difference);
 text('Vivek', 10, 30);
 fill(255, 255, 255);
 }
